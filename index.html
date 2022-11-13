@@ -9,8 +9,9 @@
   </head>
   <body>
     <header id="top">
-      <h1>Kass's Prework Study Guide</h1>
+      <h1>Kassandra's Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id="html-section">
@@ -39,6 +40,9 @@
           <li>When creating an external CSS file, we need to link it to the HTML file using the HTML 'link' element. 
             'rel' attribute within 'link' element specifies relationship between current docs and linked doc resource. 
             'href' specifies location, URL, of external resource. </li>
+            <li>external CSS file is linked to html inside the 'head' element since the 'head' element contains 
+              meta information for the browser.
+            </li>
         </ul>
       </section>
    
@@ -47,14 +51,19 @@
         <ul>
           <li>git status: checks what branch we are currently on</li>
           <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+
           <li>Default branch is called "main". We only code on feature branches. 
             In order to merge our changes to the main branch, we need to open a pull request. </li>
+
           <li>Pull request, PR, is used to merge a comparison branch (feature branch) into the base branch.
             Once the PR is open, developers and collaborators can view those changes. Once PR is approved, it can be merged to the main branch.
             Now everytime you make a new branch, it will add it to this updated main branch.
           </li>
+
           <li>git add -A command commits all files in the working branch</li>
+
           <li>git commit -m ... use -m to associate a message with your commit</li>
+          
           <li></li>
           <li></li>
           <li></li>
@@ -65,8 +74,10 @@
       <h2>JavaScript</h2>
       <ul>
         <li>JS: handles logic and allows users to interact with a website</li>
-        <li>notes here</li>
-        <li>notes here</li>
+        <li>JS file is linked to html inside  the 'body' element, unlike CSS which is held within the 'head' element.</li>
+        <li>if (condition) {
+          // block of code to be executed if condition is truthy
+         }</li>
         <li>notes here</li>
       </ul>
    
@@ -76,5 +87,6 @@
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
